@@ -5,7 +5,7 @@ git clone https://github.com/p410n3/SteamHourBoostWebInterface.git
 cd SteamHourBoostWebInterface
 rm install.sh
 mv ./steam_sudo_wrapper ../
-chown www-data:root /var//steam_sudo_wrapper/
+chown www-data:root /var/steam_sudo_wrapper/
 #allow www-data to run the scripts
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/start.sh' | sudo EDITOR='tee -a' visudo
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/stop.sh' | sudo EDITOR='tee -a' visudo
@@ -23,4 +23,4 @@ git clone https://github.com/frk1/steamhourboostv2.git
 cd steamhourboostv2
 npm install .
 clear
-echo "coffee /var/steamhourboostv2/user.coffee to add your steam account"
+echo "Now go to the GitHub page and follow the rest of the Instructions"
