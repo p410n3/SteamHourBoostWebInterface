@@ -5,6 +5,7 @@ git clone https://github.com/p410n3/SteamHourBoostWebInterface.git
 cd SteamHourBoostWebInterface
 rm install.sh
 mv ./steam_sudo_wrapper ../
+chown www-data:root /var//steam_sudo_wrapper/
 #allow www-data to run the scripts
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/start.sh' | sudo EDITOR='tee -a' visudo
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/stop.sh' | sudo EDITOR='tee -a' visudo
