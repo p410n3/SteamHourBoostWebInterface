@@ -22,4 +22,4 @@ git clone https://github.com/frk1/steamhourboostv2.git
 cd steamhourboostv2
 npm install .
 clear
-echo "Now type: (coffee user.coffee) to add your steam account"
+echo "coffee /var/user.coffee to add your steam account"
