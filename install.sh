@@ -21,6 +21,5 @@ sudo pm2 install coffeescript
 git clone https://github.com/frk1/steamhourboostv2.git
 cd steamhourboostv2
 npm install .
-cd /var/steamhourboostv2
 clear
-echo "Now type: coffee 'user.coffee' to add your steam account"
+echo "Now type: (coffee user.coffee) to add your steam account"
