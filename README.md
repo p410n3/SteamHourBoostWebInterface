@@ -1,6 +1,12 @@
 # SteamHourBoostWebInterface
 
-## The INstaller works very oinconsistent, dont use for now
+![screenshot1](https://palone.top/sx/i/451ec1e2107b7498e7ea7f471b598882.png)
+![screenshot2](https://palone.top/sx/i/2361c2857b5a6d983460fbcda912c41a.png)
+
+Using a Boostscript on a Server is really nice, but if you actually want to play on thet Account dis- and
+reenablingit becomes annoying. So I made that Interface thingy.
+
+## Installation
 
 There is an install script but before you run it you have to make sure that you have curl, sudo, wget and git installed and that the User for your webserver is named www-data. (That is the default user anyways.)
 
@@ -11,6 +17,8 @@ Then to Install run as root:
 After that you need to do the following
 
     • "cd /root/steamhourboostv2" and then "coffee user.coffee" to add a steam account
+    • "pm2 start boost.coffee" to manually start the script once. Seems to fix a Proplem with the sudo wrapper. 
+    (do taht before using the Interface)
     • go to /var/SteamHourBoostWebInterface/interface and change the config.php to use your data to login.
     • copy the interface folder from /var/SteamHourBoostWebInterface into your Web Directory and rename it as you like
     
