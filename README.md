@@ -5,6 +5,8 @@
 Using a boostscript on a Server is really nice, but if you actually want to play on that Account dis- and
 re -enabling it becomes annoying. So I made that Interface thingy.
 
+(tested on Debian 8 and Ubuntu 16.04LTS. Both with lighttpd webserver)
+
 ## Installation
 
 There is an install script but before you run it you have to make sure that you have curl, sudo, wget and git installed and that the User for your webserver is named www-data. (That is the default user anyways.)
