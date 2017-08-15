@@ -16,8 +16,9 @@ Then to Install run as root:
 After that you need to do the following
 
     • "cd /root/steamhourboostv2" and then "coffee user.coffee" to add a steam account
-    • "pm2 start boost.coffee" to manually start the script once. Seems to fix a Proplem with the sudo wrapper. 
-    (do taht before using the Interface)
+    • "pm2 start boost.coffee" to manually start the script once. Seems to fix a Problem with the sudo wrapper. 
+    (do that before using the Interface.)
+    • "pm2 stop boost.coffee" afterwards.
     • go to /var/SteamHourBoostWebInterface/interface and change the config.php to use your data to login.
     • copy the interface folder from /var/SteamHourBoostWebInterface into your Web Directory and rename it as you like
     
