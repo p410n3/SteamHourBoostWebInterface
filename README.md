@@ -8,7 +8,7 @@ Then to Install run
 
 as root. After that you need to do the following
 
-    • cd /var/steamhourboostv2 and coffee user.coffee to add a steam account
+    • "cd /var/steamhourboostv2" and then "coffee user.coffee" to add a steam account
     • go to /var/SteamHourBoostWebInterface/interface and change the config.php to use your data to login.
     • copy the interface folder from /var/SteamHourBoostWebInterface into your Web Directory and rename it as you like
     
