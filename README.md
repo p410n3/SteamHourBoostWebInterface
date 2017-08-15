@@ -2,8 +2,8 @@
 
 ![screenshot](https://palone.top/sx/i/872c7f9fb12a84a139851023b61c31f3.png)
 
-Using a Boostscript on a Server is really nice, but if you actually want to play on thet Account dis- and
-reenablingit becomes annoying. So I made that Interface thingy.
+Using a boostscript on a Server is really nice, but if you actually want to play on that Account dis- and
+re -enabling it becomes annoying. So I made that Interface thingy.
 
 ## Installation
 
