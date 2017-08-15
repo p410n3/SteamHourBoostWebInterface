@@ -10,7 +10,7 @@ chown -R www-data:root /var/steam_sudo_wrapper/
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/start.sh' | sudo EDITOR='tee -a' visudo
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/stop.sh' | sudo EDITOR='tee -a' visudo
 #frk1 stuff
-cd /var/
+cd /root/
 wget --no-check-certificate "https://nodejs.org/dist/latest/node-$(curl -L 'nodejs.org/dist/index.tab' | sed -n '2p' | awk '{ print $1 }')-linux-x64.tar.gz" -O /tmp/nodejs.tar.gz
 sudo tar --strip-components 1 -xzvf /tmp/nodejs.tar.gz -C /usr/local
 sudo npm -g install npm@latest
