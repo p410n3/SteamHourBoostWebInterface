@@ -6,7 +6,7 @@ cd SteamHourBoostWebInterface
 rm install.sh
 mv ./steam_sudo_wrapper ../
 chown -R www-data:root /var/steam_sudo_wrapper/
-chmod _r 777 /var/steam_sudo_wrapper/
+chmod -R 777 /var/steam_sudo_wrapper/
 #allow www-data to run the scripts
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/start.sh' | sudo EDITOR='tee -a' visudo
 echo 'www-data ALL = NOPASSWD: /var/steam_sudo_wrapper/stop.sh' | sudo EDITOR='tee -a' visudo
