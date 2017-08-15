@@ -1,7 +1,6 @@
 # SteamHourBoostWebInterface
 
-![screenshot1](https://palone.top/sx/i/451ec1e2107b7498e7ea7f471b598882.png)
-![screenshot2](https://palone.top/sx/i/2361c2857b5a6d983460fbcda912c41a.png)
+![screenshot](https://palone.top/sx/i/872c7f9fb12a84a139851023b61c31f3.png)
 
 Using a Boostscript on a Server is really nice, but if you actually want to play on thet Account dis- and
 reenablingit becomes annoying. So I made that Interface thingy.
