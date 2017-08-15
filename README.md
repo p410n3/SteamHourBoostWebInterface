@@ -1,5 +1,7 @@
 # SteamHourBoostWebInterface
 
+## The INstaller works very oinconsistent, dont use for now
+
 There is an install script but before you run it you have to make sure that you have curl, sudo, wget and git installed and that the User for your webserver is named www-data. (That is the default user anyways.)
 
 Then to Install run as root:
