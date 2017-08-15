@@ -2,7 +2,7 @@
 ## CURRENTLY NOT WORKING
 There is an install script but before you run it you have to make sure that you have curl, sudo, wget and git installed and that the User for your webserver is named www-data. (That is the default user anyways.)
 
-Then to Install run 
+Then to Install run as root:
 
 `wget -O - https://raw.githubusercontent.com/p410n3/SteamHourBoostWebInterface/master/install.sh | bash`
 
