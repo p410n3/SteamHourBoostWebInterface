@@ -13,6 +13,7 @@ as root. After that you need to do the following
     • copy the interface folder from /var/SteamHourBoostWebInterface into your Web Directory and rename it as you like
     
 Optional:
+
     • Change the line `@client.setPersona SteamUser.EPersonaState.Offline` to `@client.setPersona SteamUser.EPersonaState.Online` to appear as online in steam. Good to check if the boost script actually works. 
     • Add new games by adding their steamID into the database.json
     
