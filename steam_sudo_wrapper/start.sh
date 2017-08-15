@@ -1,2 +1,2 @@
 #!/bin/bash
-pm2 start /var/steamhourboostv2/boost.coffee
+pm2 start /root/steamhourboostv2/boost.coffee
