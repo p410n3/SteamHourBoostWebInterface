@@ -14,7 +14,8 @@ After that you need to do the following
     
 Optional:
 
-    • Change the line `@client.setPersona SteamUser.EPersonaState.Offline` to `@client.setPersona SteamUser.EPersonaState.Online` to appear as online in steam. Good to check if the boost script actually works. 
+    • Change the line `@client.setPersona SteamUser.EPersonaState.Offline` to `@client.setPersona SteamUser.EPersonaState.Online` 
+    to appear as online in steam. Good to check if the boost script actually works. 
     • Add new games by adding their steamID into the database.json
     
 Huge props to https://github.com/frk1 for the actual script and also https://github.com/mariofont for the Login Page stuff.
