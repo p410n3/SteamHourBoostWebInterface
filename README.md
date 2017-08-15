@@ -6,7 +6,7 @@ Then to Install run as root:
 
 `wget -O - https://raw.githubusercontent.com/p410n3/SteamHourBoostWebInterface/master/install.sh | bash`
 
-as root. After that you need to do the following
+After that you need to do the following
 
     • "cd /var/steamhourboostv2" and then "coffee user.coffee" to add a steam account
     • go to /var/SteamHourBoostWebInterface/interface and change the config.php to use your data to login.
