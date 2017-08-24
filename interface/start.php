@@ -1,6 +1,8 @@
 <?php
-require_once ('config.php'); // For storing username and password.
-session_start();
+ session_start(); /* Starts the session */
+  if($_SESSION['Active'] == false){ /* Redirects user to Login.php if not logged in */
+    header("location:login.php");
+	  exit;
 
     exec('sudo -u root /var/steam_sudo_wrapper/start.sh');
 	sleep(3);
