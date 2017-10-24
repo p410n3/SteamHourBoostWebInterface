@@ -1,6 +1,5 @@
 # SteamHourBoostWebInterface
-![screenshot1](https://i.imgur.com/PatdcsB.png)
-![screenshot2](https://i.imgur.com/Mp8HUGB.png)
+![screenshot](https://i.imgur.com/Mp8HUGB.png)
 
 Using a boostscript on a Server is really nice, but if you actually want to play on that Account dis- and
 re -enabling it becomes annoying. So I made that Interface thingy.
